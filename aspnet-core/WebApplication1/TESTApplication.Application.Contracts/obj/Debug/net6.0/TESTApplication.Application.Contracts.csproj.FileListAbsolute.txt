@@ -1,0 +1,11 @@
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\bin\Debug\net6.0\TESTApplication.Application.Contracts.deps.json
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\bin\Debug\net6.0\TESTApplication.Application.Contracts.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\bin\Debug\net6.0\TESTApplication.Application.Contracts.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\TESTApplication.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\TESTApplication.Application.Contracts.AssemblyInfoInputs.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\TESTApplication.Application.Contracts.AssemblyInfo.cs
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\TESTApplication.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\TESTApplication.Application.Contracts.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\refint\TESTApplication.Application.Contracts.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\TESTApplication.Application.Contracts.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application.Contracts\obj\Debug\net6.0\ref\TESTApplication.Application.Contracts.dll

@@ -1,0 +1,373 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+  },
+  "projects": {
+    "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application.Contracts\\TESTApplication.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application.Contracts\\TESTApplication.Application.Contracts.csproj",
+        "projectName": "TESTApplication.Application.Contracts",
+        "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application.Contracts\\TESTApplication.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application\\TESTApplication.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application\\TESTApplication.Application.csproj",
+        "projectName": "TESTApplication.Application",
+        "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application\\TESTApplication.Application.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application.Contracts\\TESTApplication.Application.Contracts.csproj": {
+                "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application.Contracts\\TESTApplication.Application.Contracts.csproj"
+              },
+              "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj": {
+                "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj",
+        "projectName": "TESTApplication.Domain",
+        "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Repository\\TESTApplication.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Repository\\TESTApplication.Repository.csproj",
+        "projectName": "TESTApplication.Repository",
+        "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Repository\\TESTApplication.Repository.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj": {
+                "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\WebApplication1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application\\TESTApplication.Application.csproj": {
+                "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Application\\TESTApplication.Application.csproj"
+              },
+              "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj": {
+                "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Domain\\TESTApplication.Domain.csproj"
+              },
+              "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Repository\\TESTApplication.Repository.csproj": {
+                "projectPath": "E:\\Development\\Repos\\APPPersonalTest\\aspnet-core\\WebApplication1\\TESTApplication.Repository\\TESTApplication.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Application.deps.json
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Application.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Application.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Application.Contracts.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Domain.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Application.Contracts.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\bin\Debug\net6.0\TESTApplication.Domain.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.csproj.AssemblyReference.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.AssemblyInfoInputs.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.AssemblyInfo.cs
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.csproj.CoreCompileInputs.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.csproj.CopyComplete
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\refint\TESTApplication.Application.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\TESTApplication.Application.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Application\obj\Debug\net6.0\ref\TESTApplication.Application.dll

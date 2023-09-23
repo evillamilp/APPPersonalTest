@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.card{
+    height: auto !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.mat-mdc-form-field
+{
+    display: block !important;
+}
+
+.content
+{
+    max-width: none !important;
+}

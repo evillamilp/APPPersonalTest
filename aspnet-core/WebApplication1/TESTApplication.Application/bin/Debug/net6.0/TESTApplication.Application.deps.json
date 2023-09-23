@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TESTApplication.Application/1.0.0": {
+        "dependencies": {
+          "TESTApplication.Application.Contracts": "1.0.0",
+          "TESTApplication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TESTApplication.Application.dll": {}
+        }
+      },
+      "TESTApplication.Application.Contracts/1.0.0": {
+        "runtime": {
+          "TESTApplication.Application.Contracts.dll": {}
+        }
+      },
+      "TESTApplication.Domain/1.0.0": {
+        "runtime": {
+          "TESTApplication.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TESTApplication.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TESTApplication.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TESTApplication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

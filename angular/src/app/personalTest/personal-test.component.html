@@ -1,0 +1,174 @@
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+
+            <div class="body">
+                <form class="register-form m-4" [formGroup]="register" skipValidation>
+                    <div class="p-r-30 p-l-30">
+
+                        <div class="row d-flex align-items-center align-middle">
+                            <!-- label -->
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 mb-1">
+                                <mat-label class="label-form">
+                                    Nombre:
+                                </mat-label>
+                            </div>
+
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 mb-1">
+
+                                <mat-form-field appearance="fill">
+                                    
+                                    <input matInput 
+                                           formControlName="fullName" 
+                                           maxlength="100">
+
+                                           
+                                    <mat-error *ngIf="register.controls.fullName.hasError('required')">
+                                           Campo requerido!
+                                    </mat-error>
+                                </mat-form-field>
+
+                            </div>
+                        </div>
+
+                        <div class="row d-flex align-items-center align-middle">
+                            <!-- label -->
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 mb-1">
+                                <mat-label class="label-form">
+                                    Dirección:
+                                </mat-label>
+                            </div>
+
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 mb-1">
+
+                                <mat-form-field appearance="fill">
+                                    
+                                    <textarea matInput 
+                                           formControlName="address" 
+                                           maxlength="300"
+                                           rows="3"
+                                           cols="2">
+                                    </textarea>
+
+                                </mat-form-field>
+
+                            </div>
+                        </div>
+
+                        <div class="row d-flex align-items-center align-middle">
+                            <!-- label -->
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 mb-1">
+                                <mat-label class="label-form">
+                                    E-mail:
+                                </mat-label>
+                            </div>
+
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 mb-1">
+
+                                <mat-form-field appearance="fill">
+                                    
+                                    <input matInput 
+                                           type="email"
+                                           formControlName="email" 
+                                           maxlength="100">
+
+                                                   
+                                    <mat-error *ngIf="register.controls.email.hasError('email')">
+                                       Correo invalido!
+                                    </mat-error>
+                                </mat-form-field>
+
+                            </div>
+                        </div>
+
+                        <div class="row d-flex align-items-center align-middle">
+
+                             <!-- label -->
+                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 mb-1">
+                                <mat-label class="label-form">
+                                   Teléfono:
+                                </mat-label>
+                            </div>
+
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 mb-1">
+
+                                <mat-form-field appearance="fill">
+                                    
+                                    <input matInput 
+                                           type="tel"
+                                           formControlName="phone" 
+                                           mask="9999999999" 
+                                           [showMaskTyped]="true">
+                                </mat-form-field>
+
+                            </div>
+                        </div>
+
+                          <!-- Buttons -->
+                          <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-1 text-center">
+
+                                <button 
+                                        type="button"
+                                        class="btn-space" 
+                                        mat-raised-button 
+                                        color="primary"
+                                        [disabled]="register.invalid"
+                                        (click)="click_save($event)">
+                                    Guardar
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="row mb-3 pt-3">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-1">
+
+                <!-- grid -->
+                <table #personalGrid mat-table [dataSource]="personalTestList" class="mat-elevation-z8">
+
+                    <ng-container matColumnDef="fullName">
+                        <th mat-header-cell *matHeaderCellDef> Nombre </th>
+                        <td mat-cell *matCellDef="let element"> {{element.fullName}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="address">
+                        <th mat-header-cell *matHeaderCellDef> Dirección </th>
+                        <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="email">
+                        <th mat-header-cell *matHeaderCellDef> E-mail </th>
+                        <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="phone">
+                        <th mat-header-cell *matHeaderCellDef> Teléfono </th>
+                        <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="actions">
+
+                        <th mat-header-cell *matHeaderCellDef> Acciones </th>
+                        <td mat-cell *matCellDef="let row">  
+                            <button mat-raised-button (click)="onClick_edit($event, row)">Editar</button> 
+                            <button  mat-raised-button class="iconbutton" color="warn" (click)="onClick_delete($event, row)">
+                                Borrar
+                            </button>
+                        </td>
+                        
+                    </ng-container> 
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

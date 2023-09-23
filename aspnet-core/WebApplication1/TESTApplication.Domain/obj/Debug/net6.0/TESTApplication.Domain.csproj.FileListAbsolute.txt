@@ -1,0 +1,11 @@
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\bin\Debug\net6.0\TESTApplication.Domain.deps.json
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\bin\Debug\net6.0\TESTApplication.Domain.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\bin\Debug\net6.0\TESTApplication.Domain.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\TESTApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\TESTApplication.Domain.AssemblyInfoInputs.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\TESTApplication.Domain.AssemblyInfo.cs
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\TESTApplication.Domain.csproj.CoreCompileInputs.cache
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\TESTApplication.Domain.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\refint\TESTApplication.Domain.dll
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\TESTApplication.Domain.pdb
+E:\Development\Repos\APPPersonalTest\aspnet-core\WebApplication1\TESTApplication.Domain\obj\Debug\net6.0\ref\TESTApplication.Domain.dll
